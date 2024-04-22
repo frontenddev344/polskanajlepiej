@@ -21,6 +21,8 @@ h4 {
 
 p {
   line-height: 26px;
+  font-size: 17px;
+  letter-spacing: 0.5px;
 }
 
 ul {
@@ -833,5 +835,12 @@ html,body{
   width: 100%;
   max-width: 100px;
   margin-bottom: 15px;
+}
+
+
+
+
+.bottom_footer_copy{
+  border-top: 1px solid #fff;
 }
 
