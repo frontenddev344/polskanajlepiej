@@ -137,6 +137,9 @@
       .uper_section_hotels.section .flex-row-reverse img {
       margin-bottom: 20px;
       }
+      .nav-title a img {
+        width: 270px;
+    }
 
 }
 
@@ -164,6 +167,9 @@
   .nav-title a img {
     width: 110px;
   }
+  .nav-title a img {
+    width: 240px;
+}
 }
 
 
@@ -178,4 +184,10 @@
   .section {
     padding: 30px 0;
   }
+  .nav-title a img {
+    width: 200px;
+}
+.banner h1 span {
+  font-size: 32px;
+}
 }

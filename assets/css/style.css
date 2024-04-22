@@ -765,6 +765,7 @@ label {
 .left_contact{
   position: relative;
   z-index: 1;
+  text-align: left;
 }
 .right_contact{
   position: relative;
