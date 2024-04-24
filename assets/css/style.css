@@ -631,6 +631,12 @@ footer .row {
   color: #396a91;
 }
 
+.spacing .right_uper_hotel img {
+  border-radius: 5px;
+  height: 450px;
+  object-fit: cover;
+  width: 100%;
+}
 
 /* cuisine */
 
@@ -859,6 +865,15 @@ body {
 .banner.cuisineb {
   background-image: url("../images/casino_banner.jpg");
 }
+
+.banner.subBanner.contactb.privacy {
+  background-image: url("../images/privacybanner.jpg");
+}
+
+.banner.subBanner.contactb.terms {
+  background-image: url("../images/termsbanner.jpg");
+}
+
 
 
 
