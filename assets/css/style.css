@@ -770,11 +770,14 @@ label {
   z-index: 1;
   text-align: left;
 }
-.right_contact{
+.right_contact {
   position: relative;
   z-index: 1;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
 
 
 
@@ -837,9 +840,13 @@ html,body{
   max-width: 100px;
   margin-bottom: 15px;
 }
+.left_contact p {
+  font-size: 16px;
+}
 
-
-
+.contact::after {
+  background: #fff!important;
+}
 
 .bottom_footer_copy{
   border-top: 1px solid #fff;
