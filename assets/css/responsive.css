@@ -94,7 +94,7 @@
   }
 
   .nav>#nav-check:checked~.nav-list {
-    height: calc(70vh - 0px);
+    height: calc(100vh - 0px);
     background-color: #396a91;
   }
 
