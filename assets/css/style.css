@@ -5,11 +5,15 @@
 }
 
 body {
-  overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
   color: #000;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 h1,
@@ -91,6 +95,7 @@ header {
   max-width: 1440px;
   margin: auto;
 }
+
 .nav>.nav-header {
   flex: 0.95;
   padding-left: 1rem;
@@ -306,6 +311,7 @@ footer .row {
   border: none;
   display: block;
 }
+
 .privacy-term h2 {
   border-bottom: 2px solid var(--primary-color);
   display: inline-block;
@@ -440,6 +446,7 @@ footer .row {
   width: 100%;
   object-fit: cover;
 }
+
 .hotel_card {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 5px;
@@ -630,22 +637,23 @@ footer .row {
 .cuisine_second.section {
   background: whitesmoke;
 }
+
 .left_cuisine {
   border: 2px solid #396a91;
   padding: 20px 15px;
   border-right: transparent;
 }
+
 .left_cuisine p {
   font-size: 18px;
 }
 
-.cuisine_second .left_cuisine
-{
+.cuisine_second .left_cuisine {
   border: 2px solid #396a91;
   border-left: transparent;
 }
 
-.cuisine_Disclaimer p{
+.cuisine_Disclaimer p {
   font-size: 20px;
 }
 
@@ -661,37 +669,41 @@ footer .row {
   background-size: cover;
   position: relative;
 }
+
 .cuisine_card p {
   height: 100%;
   position: relative;
   color: #fff;
 }
-.cuisine_card.ctwo{
-background-image: url(../images/food5.jpg);
+
+.cuisine_card.ctwo {
+  background-image: url(../images/food5.jpg);
 }
-.cuisine_card.cthree{
+
+.cuisine_card.cthree {
   background-image: url(../images/food3.jpg);
 }
 
-.cuisine_card.cfour{
+.cuisine_card.cfour {
   background-image: url(../images/food4.jpg);
 }
 
-.cuisine_card.cfive{
+.cuisine_card.cfive {
   background-image: url(../images/dish5.jpg);
 }
 
-.cuisine_card.csix{
+.cuisine_card.csix {
   background-image: url(../images/dish6.jpg);
 }
 
-.cuisine_card.cseven{
+.cuisine_card.cseven {
   background-image: url(../images/dish7.jpg);
 }
 
-.cuisine_card.ceight{
+.cuisine_card.ceight {
   background-image: url(../images/dish8.jpg);
 }
+
 .cuisine_card::before {
   position: absolute;
   content: '';
@@ -715,9 +727,10 @@ background-image: url(../images/food5.jpg);
   top: 0;
   z-index: 0;
 }
+
 /* sports */
 
-.sports_content > a {
+.sports_content>a {
   position: absolute;
   width: 100%;
   margin-bottom: 0;
@@ -736,25 +749,29 @@ contact us */
 .form-control {
   padding: 8px 10px;
   border-radius: unset;
- 
+
 }
+
 label {
   display: inline-block;
   font-size: 18px;
   margin-bottom: 5px;
 }
+
 .left_contact {
   text-align: center;
 }
-.left_contact p
-{
+
+.left_contact p {
   font-size: 20px;
 }
+
 .contact {
   background: url(../images/pattern.png) no-repeat;
   background-size: cover;
   position: relative;
 }
+
 .contact:after {
   content: "";
   background: rgb(245 245 245 / 90%);
@@ -765,11 +782,13 @@ label {
   top: 0;
   z-index: 0;
 }
-.left_contact{
+
+.left_contact {
   position: relative;
   z-index: 1;
   text-align: left;
 }
+
 .right_contact {
   position: relative;
   z-index: 1;
@@ -795,12 +814,14 @@ label {
   transform: scale(1.1);
 }
 
-.hotel_card_img{
+.hotel_card_img {
   overflow: hidden;
 }
-.hotel_card_img img{
+
+.hotel_card_img img {
   transition: 0.6s;
 }
+
 .hotel_card_img img:hover {
   transform: scale(1.1);
 }
@@ -808,28 +829,34 @@ label {
 .right_cuisine {
   overflow: hidden;
 }
+
 .right_cuisine img {
   transition: 0.6s;
 }
-.right_cuisine img:hover{
+
+.right_cuisine img:hover {
   transform: scale(1.1);
 }
+
 .sports_card a:hover img {
   transform: scale(1.1);
   transition: 0.5s;
-  }
-
-html,body{
-  overflow-x: hidden!important;
-  width: 100%!important;
 }
-.banner.hotelb{
+
+html,
+body {
+  width: 100% !important;
+}
+
+.banner.hotelb {
   background-image: url("../images/luxury_banner.webp");
 }
-.banner.contactb{
+
+.banner.contactb {
   background-image: url("../images/contact_banner.jpg");
 }
-.banner.cuisineb{
+
+.banner.cuisineb {
   background-image: url("../images/casino_banner.jpg");
 }
 
@@ -840,15 +867,15 @@ html,body{
   max-width: 100px;
   margin-bottom: 15px;
 }
+
 .left_contact p {
   font-size: 16px;
 }
 
 .contact::after {
-  background: #fff!important;
+  background: #fff !important;
 }
 
-.bottom_footer_copy{
+.bottom_footer_copy {
   border-top: 1px solid #fff;
 }
-
