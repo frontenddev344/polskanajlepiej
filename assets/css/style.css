@@ -894,3 +894,7 @@ body {
 .bottom_footer_copy {
   border-top: 1px solid #fff;
 }
+
+.journey-inner p {
+  font-size: 16px;
+}
