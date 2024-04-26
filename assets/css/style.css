@@ -900,3 +900,10 @@ body {
 }
 
 
+.casino_page_wrapper .hotel_des {
+  max-width: 620px;
+}
+
+.casino_page_wrapper  .hotel_des p {
+  font-size: 16px;
+}

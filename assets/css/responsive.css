@@ -3,23 +3,24 @@
     height: 300px!important;
     max-width: 400px!important;
 }
+.casino_page_wrapper .hotel_des {
+  max-width: 480px;
+  margin: 0 20px;
 }
-@media screen and (min-width:768px){
-  
-  .casino_page_wrapper .hotel_card img {
-    height: 260px;
-    max-width: 290px;
-}
-  .casino_page_wrapper .hotel_card {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 30px;
+.casino_page_wrapper .hotel_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30px;
 }
 .casino_page_wrapper .hotel_card .hotel_des {
-  padding: 0;
+padding: 0;
+}
+.button_cls .button {
+  width: 136px;
 }
 }
+
 @media screen and (max-width:1199px) {
   footer h3 {
     font-size: 20px;
@@ -179,6 +180,13 @@
   .nav-title a img {
     width: 270px;
   }
+  .casino_page_wrapper .hotel_card .hotel_des {
+    padding-bottom: 0;
+}
+.casino_page_wrapper .button_cls {
+  padding: 30px 20px;
+  padding-top: 0;
+}
 
 
 }
@@ -211,13 +219,7 @@
   .nav-title a img {
     width: 240px;
   }
-  .casino_page_wrapper .hotel_card .hotel_des {
-    padding-bottom: 0;
-}
-.casino_page_wrapper .button_cls {
-  padding: 30px 20px;
-  padding-top: 0;
-}
+
 }
 
 
