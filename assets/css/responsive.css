@@ -1,3 +1,9 @@
+@media screen and (min-width:992px){
+  
+.casino_page_wrapper .hotel_card img {
+  height: 500px;
+  }
+}
 @media screen and (max-width:1199px) {
   footer h3 {
     font-size: 20px;
