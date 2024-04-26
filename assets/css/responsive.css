@@ -1,8 +1,14 @@
 @media screen and (min-width:992px){
+  .casino_page_wrapper .hotel_card img {
+    height: 300px!important;
+    max-width: 400px!important;
+}
+}
+@media screen and (min-width:768px){
   
   .casino_page_wrapper .hotel_card img {
-    height: 300px;
-    max-width: 400px;
+    height: 260px;
+    max-width: 290px;
 }
   .casino_page_wrapper .hotel_card {
     display: flex;
@@ -173,13 +179,7 @@
   .nav-title a img {
     width: 270px;
   }
-  .casino_page_wrapper .hotel_card .hotel_des {
-    padding-bottom: 0;
-}
-.casino_page_wrapper .button_cls {
-  padding: 30px 20px;
-  padding-top: 0;
-}
+
 
 }
 
@@ -211,6 +211,13 @@
   .nav-title a img {
     width: 240px;
   }
+  .casino_page_wrapper .hotel_card .hotel_des {
+    padding-bottom: 0;
+}
+.casino_page_wrapper .button_cls {
+  padding: 30px 20px;
+  padding-top: 0;
+}
 }
 
 
